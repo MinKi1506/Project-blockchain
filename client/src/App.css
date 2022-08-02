@@ -2,17 +2,17 @@
 
 /* 로고 */
 @font-face {
-  font-family: "cute";        
+  font-family: 'cute';
   src: url('./assets/font/cute.ttf');
 }
 
 @font-face {
-  font-family: "nanum";
+  font-family: 'nanum';
   src: url('./assets/font/nanum.ttf');
 }
 
 @font-face {
-  font-family: "cafe";
+  font-family: 'cafe';
   src: url('./assets/font/cafe.ttf');
 }
 
@@ -23,18 +23,9 @@
   font-family: 'SeoulNamsan';
 }
 
-body {
-  /* background-color: #efefef; */
-}
-
 .App {
   margin: auto;
   width: 100vw;
   height: 100vh;
   text-align: center;
 }
-
-
-
-
-

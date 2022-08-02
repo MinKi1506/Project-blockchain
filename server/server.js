@@ -11,8 +11,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const db = mysql.createConnection({
   host: "127.0.0.1",
   user: "root",
-  password: "12345678",
-  database: "travelDapp",
+  password: "1234",
+  database: "wanna",
 });
 
 app.post("/api/isUser", (req, res) => {
