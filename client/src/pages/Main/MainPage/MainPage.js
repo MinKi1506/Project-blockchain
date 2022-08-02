@@ -80,7 +80,7 @@ function MainPage() {
           </button>
         </div>
 
-        <h5 className="font_cute">아이유님, 안녕하세요!</h5>
+        <h5 className="font_cute">카리나님, 안녕하세요!</h5>
 
         {/* 검색창 */}
         <div className="search_box">
