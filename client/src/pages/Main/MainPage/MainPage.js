@@ -94,7 +94,13 @@ function MainPage() {
 
         {/* 이벤트 버튼 */}
         <div className="event_container">
-          <Button className="event_btn" variant="outline-primary">
+          <Button
+            className="event_btn"
+            variant="outline-primary"
+            onClick={() => {
+              navigate('/goTrip');
+            }}
+          >
             여행가기
           </Button>
           <Button className="event_btn" variant="outline-primary">

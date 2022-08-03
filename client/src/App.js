@@ -31,6 +31,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/myInfo" element={<MyInfo />} />
         <Route path="/goTrip" element={<Trip />} />
+
         <Route path="/map" element={<MapPage />} />
         <Route path="/storeInfo" element={<StoreInfo />} />
         <Route path="/placereview" element={<PlaceReview />} />
